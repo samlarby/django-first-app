@@ -34,7 +34,7 @@ DEBUG = development
 if development:
     ALLOWED_HOSTS = ['8000-samlarby-djangofirstapp-6uy74px3rsm.ws-eu115.gitpod.io']
 else:
-    ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+    ALLOWED_HOSTS = [os.environ.get('djange-todo-app-ca46f13771ca.herokuapp.com/')]
 
 
 # Application definition
